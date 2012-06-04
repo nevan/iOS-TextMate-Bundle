@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	${1:return YES;}
+}
+
+${0:}</string>
+	<key>name</key>
+	<string>tableView:canEditRowAtIndexPath:</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>-tvcanedit</string>
+	<key>uuid</key>
+	<string>C12F8D03-56D4-4674-9842-10254A1F6BA2</string>
+</dict>
+</plist>

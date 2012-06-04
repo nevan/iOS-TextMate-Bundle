@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby -w
+ 
+# copy/retain/assign
+ 
+properties  = ''
+synthesize  = ''
+release     = ''
+ 
+STDIN.read.each do |line|
+  line.gsub!(/\*/, '').strip!
+  words = line.split(/\s+/)
+ 
+  label =  words.size &gt; 2 ? words[1] : words[0]
+  variable = words[-1]
+  properties &lt;&lt; "@property (nonatomic, retain) #{label} *#{variable}\n"
+  synthesize &lt;&lt; "@synthesize #{variable}\n"
+  release    &lt;&lt; "self.#{variable.chop} = nil;\n"
+end
+ 
+synthesize &lt;&lt; release.chomp
+ 
+`echo '#{synthesize.chomp}' | pbcopy`
+print properties.chomp</string>
+	<key>fallbackInput</key>
+	<string>scope</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>@property @synthesize</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>uuid</key>
+	<string>6DA13110-0020-44AA-9008-CEBFBBF2B8A2</string>
+</dict>
+</plist>

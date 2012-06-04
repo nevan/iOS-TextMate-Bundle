@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>UITableView *${1:tableView} = [[UITableView alloc] initWithFrame:${2:frame}];${0:}</string>
+	<key>name</key>
+	<string>tableView</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>tv</string>
+	<key>uuid</key>
+	<string>D195F3EB-BBA6-4AF3-9FB3-D36D948C2883</string>
+</dict>
+</plist>

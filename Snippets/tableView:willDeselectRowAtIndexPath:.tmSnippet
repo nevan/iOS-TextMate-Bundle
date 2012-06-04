@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>- (NSIndexPath *)tableView:(UITableView *)tableView willDeselectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	${1:}
+}
+
+${0:}</string>
+	<key>name</key>
+	<string>tableView:willDeselectRowAtIndexPath:</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>-tvwide</string>
+	<key>uuid</key>
+	<string>3DE91AF2-BC88-4CBF-ACAF-14F35AD5C4B0</string>
+</dict>
+</plist>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby -w
+ 
+PAD_LENGTH      = 2
+@max_length     = 0
+@declarations   = []
+ 
+def pad_me(line)
+  str = ''
+  (@max_length - line.to_s.length).times { str &lt;&lt; ' ' }
+  return str
+end
+ 
+def set_longest_length
+  # Discover the longest length of a declaration and add PAD_LENGTH to it
+  @declarations.each do |declaration|
+    @max_length = declaration[:declaration].size if declaration[:declaration].size &gt; @max_length
+  end
+  @max_length += PAD_LENGTH
+end
+ 
+def output_string
+  list_formatted = ''
+ 
+  @declarations.each do |declaration|
+    decl = declaration[:declaration]
+ 
+    if !declaration[:comment].empty?
+      list_formatted &lt;&lt; "#{declaration[:comment]}\n"
+ 
+    elsif declaration[:blank_line]
+      list_formatted &lt;&lt; "\n"
+ 
+    elsif declaration[:pointer]
+      list_formatted &lt;&lt; "\t#{decl}#{pad_me(decl)} *#{declaration[:variable]}\n"
+ 
+    else
+      list_formatted &lt;&lt; "\t#{decl}#{pad_me(decl)} #{declaration[:variable]}\n"
+    end
+  end
+  return list_formatted.rstrip
+end
+ 
+def unwrap_declarations(lines)
+  lines.each do |line|
+    blank_line  = false
+    pointer     = false
+    comment     = ''
+    eol_comment = ''
+    decl        = ''
+    var         = ''
+ 
+    # blank line with possible spaces and/or tabs
+    if line =~ /^\s{0,}$/
+      blank_line = true
+ 
+      # line is a comment
+    elsif line =~ /^\s?\/\//
+      comment = line;
+ 
+      # declaration is int, BOOL etc
+    elsif line.split('*')[1] == nil
+ 
+      # end-of-line comment
+      if line =~ /\/\//
+        line, eol_comment = line.split("//")
+        eol_comment = " //#{eol_comment}"
+      end
+ 
+      items = line.split("\s")
+ 
+      # If the line contains more than two words
+      if items.size &gt; 2
+        decl = items[0..-2].join(' ')
+        var  = items[-1].to_s + eol_comment
+ 
+      else
+        decl = items[0].to_s
+        var  = items[-1].to_s + eol_comment
+      end
+ 
+    else
+      decl, var = line.split('*')
+      pointer   = true
+    end
+ 
+    @declarations &lt;&lt; {
+      :comment     =&gt; comment,
+      :blank_line  =&gt; blank_line,
+      :declaration =&gt; decl.empty? ? decl : decl.strip,
+      :variable    =&gt; var.empty? ? var : var.strip,
+      :pointer     =&gt; pointer
+    }
+  end
+end
+ 
+ 
+# Script Execution
+#
+lines = STDIN.read.split("\n")
+exit if lines.empty?
+ 
+unwrap_declarations(lines)
+set_longest_length
+print output_string</string>
+	<key>fallbackInput</key>
+	<string>none</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>Line up variables</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>uuid</key>
+	<string>6AFB26B6-EE4E-4F30-8100-5E31F5F88459</string>
+</dict>
+</plist>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>- (void)dealloc
+{
+${1		${2:[${3:var1} release];
+${4:	[${5:var2} release];
+${6:	[${7:var3} release];
+${8:	[${9:var4} release];
+}}}}	[super dealloc];
+}${0}</string>
+	<key>name</key>
+	<string>dealloc</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>dealloc</string>
+	<key>uuid</key>
+	<string>65D1456B-BA40-4372-A21E-6F6821AA464F</string>
+</dict>
+</plist>

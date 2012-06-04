@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>- (BOOL)tableView:(UITableView *)tableView canPerformAction:(SEL)action forRowAtIndexPath:(NSIndexPath *)indexPath withSender:(id)sender
+{
+	${1:return YES;}
+}
+
+${0:}</string>
+	<key>name</key>
+	<string>tableView:canPerformAction:forRowAtIndexPath:withSender:</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>-tvcan</string>
+	<key>uuid</key>
+	<string>766952DF-CF0E-4047-B7D2-CB3BC7656F09</string>
+</dict>
+</plist>

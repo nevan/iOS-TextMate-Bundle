@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>UISwitch *${1:Switch}${0}</string>
+	<key>name</key>
+	<string>UISwitch</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>uis</string>
+	<key>uuid</key>
+	<string>1755ECCD-5E13-4FC8-9AE7-44B36F8EFA69</string>
+</dict>
+</plist>

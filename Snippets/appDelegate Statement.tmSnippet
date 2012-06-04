@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:AppDelegate} *${2:appDelegate} = (${1:AppDelegate} *) [[UIApplication sharedApplication] delegate];${0}</string>
+	<key>name</key>
+	<string>appDelegate Statement</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>del</string>
+	<key>uuid</key>
+	<string>579D79C7-5E2D-4B9A-A910-B8F921955B4E</string>
+</dict>
+</plist>

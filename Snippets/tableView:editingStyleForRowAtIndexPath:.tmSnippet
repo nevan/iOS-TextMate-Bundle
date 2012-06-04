@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>- (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	${1:return UITableViewCellEditingStyleNone;}
+}
+
+${0:}</string>
+	<key>name</key>
+	<string>tableView:editingStyleForRowAtIndexPath:</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>-tvedsty</string>
+	<key>uuid</key>
+	<string>659452C3-6F8B-42A9-A478-129DA05D6883</string>
+</dict>
+</plist>

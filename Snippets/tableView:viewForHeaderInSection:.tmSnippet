@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+	${1:}
+}
+
+${0:}</string>
+	<key>name</key>
+	<string>tableView:viewForHeaderInSection:</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>-tvvfh</string>
+	<key>uuid</key>
+	<string>2E668CC5-3187-49D7-88AE-491A21107373</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>NSIndexPath *${1:indexPath}${0}</string>
+	<key>name</key>
+	<string>NSIndexPath</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>nsix</string>
+	<key>uuid</key>
+	<string>19AD246E-8EFD-4F44-9099-AF10F0813112</string>
+</dict>
+</plist>

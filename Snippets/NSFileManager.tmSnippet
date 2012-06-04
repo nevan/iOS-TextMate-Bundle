@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>NSFileManager *${1:fileManager}${2: = [NSFileManager defaultManager];}${0}</string>
+	<key>name</key>
+	<string>NSFileManager</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>nsf</string>
+	<key>uuid</key>
+	<string>C8AC758A-15E1-4704-BD02-6B430C79F10B</string>
+</dict>
+</plist>

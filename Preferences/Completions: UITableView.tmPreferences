@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Completions: UITableView</string>
+	<key>scope</key>
+	<string>source.objc</string>
+	<key>settings</key>
+	<dict>
+		<key>completions</key>
+		<array>
+			<string>UITableViewStylePlain</string>
+			<string>UITableViewStyleGrouped</string>
+			<string>UITableViewScrollPositionNone</string>
+			<string>UITableViewScrollPositionTop</string>
+			<string>UITableViewScrollPositionMiddle</string>
+			<string>UITableViewScrollPositionBottom</string>
+			<string>UITableViewRowAnimationFade</string>
+			<string>UITableViewRowAnimationRight</string>
+			<string>UITableViewRowAnimationLeft</string>
+			<string>UITableViewRowAnimationTop</string>
+			<string>UITableViewRowAnimationBottom</string>
+			<string>UITableViewRowAnimationNone</string>
+			<string>UITableViewRowAnimationMiddle</string>
+			<string>UITableViewRowAnimationAutomatic</string>
+			<string>UITableViewIndexSearch</string>
+			<string>UITableViewAutomaticDimension</string>
+			<string>UITableViewSelectionDidChangeNotification</string>
+		</array>
+	</dict>
+	<key>uuid</key>
+	<string>67C30C37-5D22-43F5-A37C-0A5EC88F6E97</string>
+</dict>
+</plist>

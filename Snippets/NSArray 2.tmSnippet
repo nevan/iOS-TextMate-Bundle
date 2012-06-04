@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>NS${1:Mutable}Array${TM_C_POINTER: *}${2:array} = [NS${1:Mutable}Array array];</string>
+	<key>name</key>
+	<string>NS(Mutable)Array</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>arr</string>
+	<key>uuid</key>
+	<string>BBED42E3-9664-4C71-801B-4E11A26850BD</string>
+</dict>
+</plist>
