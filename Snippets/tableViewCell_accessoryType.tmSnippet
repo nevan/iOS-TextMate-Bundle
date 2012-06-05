@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${3:cell}.accessoryType${1: = UITableViewCellAccessory${2};}
+${0}</string>
+	<key>name</key>
+	<string>tableViewCell.accessoryType</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>tvcat</string>
+	<key>uuid</key>
+	<string>D0EF355D-BB0B-4CCE-BD40-2420E0749E57</string>
+</dict>
+</plist>

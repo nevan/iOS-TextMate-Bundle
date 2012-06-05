@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Completions: UITableViewCell</string>
+	<key>scope</key>
+	<string>source.objc</string>
+	<key>settings</key>
+	<dict>
+		<key>completions</key>
+		<array>
+			<string>UITableViewCellStyleDefault</string>
+			<string>UITableViewCellStyleValue1</string>
+			<string>UITableViewCellStyleValue2</string>
+			<string>UITableViewCellStyleSubtitle</string>
+			<string>UITableViewCellStateMask</string>
+			<string>UITableViewCellSelectionStyleNone</string>
+			<string>UITableViewCellSelectionStyleBlue</string>
+			<string>UITableViewCellSelectionStyleGray</string>
+			<string>UITableViewCellEditingStyleNone</string>
+			<string>UITableViewCellEditingStyleDelete</string>
+			<string>UITableViewCellEditingStyleInsert</string>
+			<string>UITableViewCellAccessoryNone</string>
+			<string>UITableViewCellAccessoryDisclosureIndicator</string>
+			<string>UITableViewCellAccessoryDetailDisclosureButton</string>
+			<string>UITableViewCellAccessoryCheckmark</string>
+			<string>UITableViewCellStateDefaultMask</string>
+			<string>UITableViewCellStateShowingEditControlMask</string>
+			<string>UITableViewCellStateShowingDeleteConfirmationMask</string>
+			<string>UITableViewCellSeparatorStyleNone</string>
+			<string>UITableViewCellSeparatorStyleSingleLine</string>
+			<string>UITableViewCellSeparatorStyleSingleLineEtched</string>
+			<string>UITableViewCellSeparatorStyleDoubleLineEtched</string>
+			<string>UITableViewCellStateEditingMask</string>
+			<string>UITableViewCellStateShowingEditControlMask</string>
+		</array>
+	</dict>
+	<key>uuid</key>
+	<string>E2B4FBC3-C8CD-41A5-8516-62ACC67B3D51</string>
+</dict>
+</plist>

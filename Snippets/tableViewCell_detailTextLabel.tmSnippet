@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${3:cell}.detailTextLabel${1: = ${2:detailTextLabel};}
+${0}</string>
+	<key>name</key>
+	<string>tableViewCell.detailTextLabel</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>tvcdet</string>
+	<key>uuid</key>
+	<string>B99CE980-584F-4E8E-A16E-31C54D0DDA8D</string>
+</dict>
+</plist>

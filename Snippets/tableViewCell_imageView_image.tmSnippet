@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${3:cell}.imageView.image${1: = ${2:image};}
+${0}</string>
+	<key>name</key>
+	<string>tableViewCell.imageView.image</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>tvcivi</string>
+	<key>uuid</key>
+	<string>B57EC880-4493-45FD-86EA-6B25783AE258</string>
+</dict>
+</plist>

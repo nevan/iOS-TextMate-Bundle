@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${3:cell}.editing${1: = ${2:YES};}
+${0}</string>
+	<key>name</key>
+	<string>tableViewCell.editing</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>tvced</string>
+	<key>uuid</key>
+	<string>9C59E4C2-7FD6-4D95-8FEE-588772BFBCD2</string>
+</dict>
+</plist>

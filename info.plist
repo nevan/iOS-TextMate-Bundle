@@ -137,6 +137,13 @@
 				<key>name</key>
 				<string>Boolean</string>
 			</dict>
+			<key>B6F38CC6-58E4-4188-B3DA-A192F4956EBD</key>
+			<dict>
+				<key>items</key>
+				<array/>
+				<key>name</key>
+				<string>UITableViewCell</string>
+			</dict>
 			<key>ED24CE03-673B-422C-B632-36C586DDFA34</key>
 			<dict>
 				<key>items</key>
@@ -144,6 +151,7 @@
 					<string>D195F3EB-BBA6-4AF3-9FB3-D36D948C2883</string>
 					<string>8930D1F5-D4F7-48AD-9EAB-92C8E09F4A81</string>
 					<string>6097F4DF-D00F-4B30-9844-8F74B8BA8F91</string>
+					<string>B6F38CC6-58E4-4188-B3DA-A192F4956EBD</string>
 				</array>
 				<key>name</key>
 				<string>UITableView</string>
@@ -187,12 +195,25 @@
 		<string>3DE91AF2-BC88-4CBF-ACAF-14F35AD5C4B0</string>
 		<string>D8F66FCC-8EAE-408D-BF56-02BC2CC77EE3</string>
 		<string>724EFAD1-85B3-44AA-A9F1-CF523FC3DB3D</string>
+		<string>D0EF355D-BB0B-4CCE-BD40-2420E0749E57</string>
+		<string>DF042C94-2242-4E25-86FD-8776AB98126E</string>
+		<string>43D2B5F7-8A33-4CEA-B3EB-81D32BA99407</string>
+		<string>62323AAC-9A48-4F0C-A051-1125826CF3C1</string>
+		<string>B99CE980-584F-4E8E-A16E-31C54D0DDA8D</string>
+		<string>2A514691-4DE5-4018-9E4C-C68C79D11A7F</string>
+		<string>9C59E4C2-7FD6-4D95-8FEE-588772BFBCD2</string>
+		<string>433F23AE-C4F5-45DE-97DA-98B2E4375152</string>
+		<string>EAD4B571-70BD-4E03-9340-D17EA50DA7C4</string>
+		<string>E2BF8D60-510A-4550-B5EF-44F52EBE443A</string>
+		<string>E2C15EEB-3AD9-40FD-9416-7DEBB25DFAD9</string>
+		<string>391D28F6-2A55-4783-8C6E-D98C6CC36D99</string>
+		<string>B57EC880-4493-45FD-86EA-6B25783AE258</string>
+		<string>106A2500-7743-4111-9C1A-489291421ACB</string>
 		<string>55F382EF-13DB-4451-B90F-9898AE30255C</string>
 		<string>579D79C7-5E2D-4B9A-A910-B8F921955B4E</string>
 		<string>BA3AA4D6-1891-4C02-9F3A-BD711391EC82</string>
 		<string>BBED42E3-9664-4C71-801B-4E11A26850BD</string>
 		<string>A2C0C44C-BD67-4700-84DD-4F72B11370A4</string>
-		<string>67C30C37-5D22-43F5-A37C-0A5EC88F6E97</string>
 		<string>2734201D-6DE2-4151-87E5-1C781F7B69B2</string>
 		<string>00C086BF-E9BC-4EA5-9E57-1CBF277DCA8E</string>
 		<string>B9FDE96B-20D3-4DAD-B39A-474EF60C9A30</string>
@@ -240,6 +261,8 @@
 		<string>2D84A570-3513-48C3-BB7C-11FA00FB2396</string>
 		<string>6ADDB804-48C2-49F2-B3AE-DEE816E80B36</string>
 		<string>47EA2FAE-9B30-48A8-8661-1ECCF67D2E72</string>
+		<string>67C30C37-5D22-43F5-A37C-0A5EC88F6E97</string>
+		<string>E2B4FBC3-C8CD-41A5-8516-62ACC67B3D51</string>
 		<string>6DA13110-0020-44AA-9008-CEBFBBF2B8A2</string>
 		<string>6AFB26B6-EE4E-4F30-8100-5E31F5F88459</string>
 	</array>

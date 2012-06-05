@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${3:cell}.editingAccessoryType${1: = UITableViewCellAccessory${2:};}
+${0}</string>
+	<key>name</key>
+	<string>tableViewCell.editingAccessoryType</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>tvcedat</string>
+	<key>uuid</key>
+	<string>433F23AE-C4F5-45DE-97DA-98B2E4375152</string>
+</dict>
+</plist>
